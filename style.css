@@ -1,0 +1,21 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#box p {
+    font-size: 1.7vw;
+    color: white;
+}
